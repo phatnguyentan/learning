@@ -25,5 +25,9 @@ const server = new GraphQLServer({
     }),
   }),
 })
-
-server.start(() => console.log('Server is running on http://localhost:4000'))
+const options = {
+    port: 4001,
+    playground: './playground'
+}
+// server.start(() => console.log('Server is running on http://localhost:4000'))
+server.start(options, ({port}) => console.log(`Server is running on port ${port}`))
