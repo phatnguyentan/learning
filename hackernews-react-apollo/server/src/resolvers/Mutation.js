@@ -8,6 +8,7 @@ function post(parent, { url, description }, ctx, info) {
     { data: { url, description, postedBy: { connect: { id: userId } } } },
     info,
   )
+  // return ctx.db.mutation.createLink({ data: { url, description } }, info)
 }
 
 async function signup(parent, args, ctx, info) {
