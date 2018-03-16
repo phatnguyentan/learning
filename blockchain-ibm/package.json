@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "composer-playground"
+    "start": "composer-playground",
+    "rest": "composer-rest-server"
   },
   "author": "",
   "license": "ISC",
