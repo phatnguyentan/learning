@@ -1,4 +1,0 @@
-- Export filed
-- composer network deploy
-- admin@carauction-network
-- https://github.com/hyperledger/composer/wiki/REST-Server
